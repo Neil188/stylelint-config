@@ -1,6 +1,6 @@
 {
     "name": "@neil188/stylelint-config",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Stylelint rules",
     "main": "index.js",
     "scripts": {
