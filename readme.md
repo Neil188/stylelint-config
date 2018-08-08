@@ -7,14 +7,24 @@ Stylelint rules for my personal projects.
 Install using:
 
 ```bash
-npm install --save-dev eslint @neil188/stylelint-config
+npm install --save-dev @neil188/stylelint-config
 ```
 
+Note: The following are included in this package so you don't need to install them yourself:
 
+* stylelint
+* stylelint-a11y
+* stylelint-order
 
-## Extra configs
+Then in your Stylelint config file extend the rules:
 
-
+```js
+module.exports = {
+    'extends': [
+        '@neil188/stylelint-config'
+    ]
+};
+```
 
 ## LICENSE
 
