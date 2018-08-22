@@ -3,5 +3,6 @@ module.exports = {
         "./rules/standard",
         "./rules/a11y.js",
         "./rules/order.js",
+        "./rules/browser.js",
     ],
 };

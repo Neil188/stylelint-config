@@ -18,6 +18,7 @@
         "stylelint": "^9.4.0",
         "stylelint-a11y": "^1.1.7",
         "stylelint-config-standard": "^18.2.0",
+        "stylelint-no-unsupported-browser-features": "^3.0.1",
         "stylelint-order": "^0.8.1"
     },
     "engines": {
