@@ -15,6 +15,7 @@ Note: The following are included in this package so you don't need to install th
 * stylelint
 * stylelint-a11y
 * stylelint-order
+* stylelint-no-unsupported-browser-features
 
 Then in your Stylelint config file extend the rules:
 
