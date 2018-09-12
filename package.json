@@ -6,7 +6,8 @@
     "scripts": {
         "stylelint-find-unused-rules": "stylelint-find-rules --config ./index.js",
         "eslint": "eslint *.js",
-        "lint": "stylelint --config index.js *.css"
+        "stylelint": "stylelint --config index.js *.css",
+        "test": "npm run eslint && npm run stylelint"
     },
     "keywords": [
         "stylelint",
