@@ -1,10 +1,10 @@
 module.exports = {
     "plugins": [
         "stylelint-no-unsupported-browser-features"
-      ],
-      "rules": {
+    ],
+    "rules": {
         "plugin/no-unsupported-browser-features": [true, {
-          "severity": "warning"
+            "severity": "warning"
         }]
-      }
+    }
 }
