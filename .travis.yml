@@ -3,3 +3,11 @@ language: node_js
 node_js: 8
 before_script:
 - npm prune
+deploy:
+  provider: npm
+  email: nlupton@gmx.com
+  api_key:
+    secure: yFnAyDcdYQa3ieIC240yf7D9/U4HfxMXsePYLxxTa0fUmbZbLmKHjuYnhqskAFMUM9GiXlWiUt2WJtA+sWQqEiIfBw+xfsqG+PrwpcL0LgeAcpqzId5IWtkY8kMpDQTY/ElRM7o1Zc6Bn64H5tNwDGQJ/MJD6TcV+Tjg6a3+duyp0N644GZkQkC6AyC0d/swYDnsT+4ECiy9+NVupucznlwy3hvUKI6+Z5X5i0ETM50XsHJN+yurm8oIq7rLDN/D9y9d8L1x7bYDNc8UFrYNBUzNSHZ46AUzPvPvTg1UYn3SH4NgTyVGIa8p1l5dsNozDWn67vUpmaX+aN2T8T8hr3GcVpR9hvVal7v+QZoorRen8qZVQH0I8+ESF91XONfw+06E7vm6Dm3cm7L4nOh/+jo07r2DW0P+yjT/8wofI1bTeIs9PlHREQeT3V9+KlwtS5WHA+NStBZMN9mz9Sdl20idQThMyJUMkL4oH9gZTz1BWJISQQoQ+U8Z8GET6APZfkMAkCywePhuXyPPIJoTfZd8CMMCOkGyOQCA1Ero2JHTS42J5maGT7bQ9W2e/H1UCElSmn3cVQOM1z1Gz+fleNYVuBsYOPKmH7RVfyaV/kYdA1exX0WKoKzfaIswy2JSBbhaIi4xvO2f9mH8tEbtCjYHLtrSMcUphSbaSXeE/4A=
+  on:
+    repo: Neil188/stylelint-config
+    branch: master
