@@ -1,0 +1,100 @@
+div.myclass {
+    background-color: yellow;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+    cursor: -webkit-grab;
+    height: 16rem;
+    margin: 0.2rem 0;
+    overflow-wrap: break-word;
+    position: absolute;
+    width: 16rem;
+}
+
+div.myclass:active {
+    cursor: -webkit-grabbing;
+}
+
+div.myclass p {
+    font-family: "Shadows Into Light", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 1rem;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    div.myclass > span {
+        bottom: 0.2rem;
+        opacity: 0;
+        position: absolute;
+        right: 0.2rem;
+        transition: none;
+    }
+}
+
+div.myclass > span {
+    bottom: 0.2rem;
+    opacity: 0;
+    position: absolute;
+    right: 0.2rem;
+    transition: opacity 0.25s linear;
+}
+
+div.myclass:hover > span,
+div.myclass:focus > span {
+    opacity: 1;
+}
+
+div.myclass button {
+    margin: 0.2rem 0.4rem;
+}
+
+div.myclass textarea {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 2.5rem;
+    height: 75%;
+    width: 100%;
+}
+
+div.board button {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 2rem;
+}
+
+.class1 {
+    background-color: #337ab7;
+}
+
+.class2 {
+    background-color: #5cb85c;
+}
+
+.class3 {
+    background-color: #d9534faa;
+}
+
+#root {
+    --color1: #425e4f;
+    --color2: #3bc0c4;
+    --color3: #578f91;
+    --color4: #6b303b;
+    --color5: #91577f;
+}
+
+/* background-image: linear-gradient(120deg, var(--color4) 0%, var(--color1) 50%, var(--color2) 100%);
+ */
+h1 {
+    background-image:
+        linear-gradient(
+            120deg,
+            var(--color4) 0%,
+            var(--color1) 50%,
+            var(--color2) 100%
+        );
+    color: white;
+    font-size: 1.5rem;
+
+    /* margin: 0 0 2rem 0; */
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+}
