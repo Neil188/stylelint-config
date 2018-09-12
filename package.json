@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "stylelint-find-unused-rules": "stylelint-find-rules --config ./index.js",
+        "eslint": "eslint *.js",
         "lint": "stylelint --config index.js *.css"
     },
     "keywords": [
@@ -34,6 +35,8 @@
         "url": "https://github.com/Neil188/stylelint-config.git"
     },
     "devDependencies": {
+        "@neil188/eslint-config": "^1.2.0",
+        "eslint": "^5.5.0",
         "stylelint-find-rules": "^1.1.1"
     },
     "browserslist": [

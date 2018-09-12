@@ -1,0 +1,13 @@
+{
+
+    "extends": [
+        "@neil188/eslint-config"
+    ],
+    "rules": {
+        "babel/quotes": [
+            "error",
+            "double"
+        ]
+    }
+
+}
