@@ -11,3 +11,4 @@ deploy:
   on:
     repo: Neil188/stylelint-config
     branch: master
+    tags: true
