@@ -19,10 +19,10 @@
     "peerDependencies": {},
     "dependencies": {
         "@neil188/browserslist-config": "^2.1.1",
-        "stylelint": "^9.5.0",
+        "stylelint": "^9.6.0",
         "stylelint-a11y": "^1.1.7",
         "stylelint-config-standard": "^18.2.0",
-        "stylelint-no-unsupported-browser-features": "^3.0.1",
+        "stylelint-no-unsupported-browser-features": "^3.0.2",
         "stylelint-order": "^1.0.0"
     },
     "engines": {
