@@ -39,7 +39,7 @@
     "devDependencies": {
         "@neil188/eslint-config": "^1.2.0",
         "eslint": "^5.5.0",
-        "stylelint-find-rules": "^1.1.1"
+        "stylelint-find-rules": "^2.0.0"
     },
     "browserslist": [
         "extends @neil188/browserslist-config"
