@@ -7,7 +7,7 @@
         "stylelint-find-unused-rules": "stylelint-find-rules --config ./index.js",
         "eslint": "eslint *.js",
         "printconfig": "stylelint --config index.js test/index.css --print-config",
-        "stylelint": "stylelint --config index.js *.css",
+        "stylelint": "stylelint --config index.js test/*.css",
         "test": "npm run eslint && npm run stylelint"
     },
     "keywords": [
@@ -18,12 +18,12 @@
     "license": "MIT",
     "peerDependencies": {},
     "dependencies": {
-        "@neil188/browserslist-config": "^2.3.0",
-        "stylelint": "^9.10.1",
-        "stylelint-a11y": "^1.1.11",
+        "@neil188/browserslist-config": "^2.4.1",
+        "stylelint": "^10.1.0",
+        "stylelint-a11y": "^1.2.0",
         "stylelint-config-standard": "^18.3.0",
         "stylelint-no-unsupported-browser-features": "^3.0.2",
-        "stylelint-order": "^2.2.1"
+        "stylelint-order": "^3.0.0"
     },
     "engines": {
         "node": "8.11.x",
@@ -37,7 +37,7 @@
         "url": "https://github.com/Neil188/stylelint-config.git"
     },
     "devDependencies": {
-        "@neil188/eslint-config": "^1.8.0",
+        "@neil188/eslint-config": "^1.8.1",
         "eslint": "5.6.0",
         "stylelint-find-rules": "^2.0.0"
     },
